@@ -29,4 +29,20 @@
       </plugin>
     </plugins>
   </build>
+  
+  	<distributionManagement>
+		<repository>
+			<id>deployment</id>
+			<name>Release Repository</name>
+			<!-- Property <repository.proj-releases.url> must be defined in settings.xml. -->
+			<url>http://localhost:8081/nexus/content/repositories/proj-releases/</url>
+		</repository>
+     <snapshotRepository>
+			<id>deployment</id>
+			<name>Snapshot Repository</name>
+			<!-- Property <repository.proj-releases.url> must be defined in settings.xml. -->
+			<url>http://localhost:8081/nexus/content/repositories/proj-snapshot/</url>
+		</snapshotRepository>
+	</distributionManagement>
+  
 </project>
