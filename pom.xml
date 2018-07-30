@@ -7,8 +7,8 @@
    <scm>
      <connection>scm:git:git@github.com:harishntt/mavenreleasetest.git</connection>
     <developerConnection>scm:git:git@github.com:harishntt/mavenreleasetest.git</developerConnection>
-	   <url>https://github.com/harishntt/mavenreleasetest</url>
-	  <tag>@{project.version}</tag> 
+	   <url>https://github.com/harishntt/mavenreleasetest</url> 
+	  <!-- <tag>@{project.version}</tag> -->
   </scm>
  
   <dependencies>
