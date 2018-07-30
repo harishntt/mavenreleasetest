@@ -6,9 +6,10 @@
   <packaging>jar</packaging>
   <version>1.0-SNAPSHOT</version>
    <scm>
-     <connection>scm:git:https://github.com/harishntt/mavenreleasetest</connection>
-	<url>https://github.com/harishntt/mavenreleasetest</url>
-    <developerConnection>scm:git:https://github.com/harishntt/mavenreleasetest</developerConnection>
+     <connection>scm:git:git@github.com:harishntt/mavenreleasetest.git</connection>
+    <developerConnection>scm:git:git@github.com:harishntt/mavenreleasetest.git</developerConnection>
+	   <url>https://github.com/harishntt/mavenreleasetest</url>
+	  <tag>@{project.version}</tag> 
   </scm>
  
   <dependencies>
