@@ -3,13 +3,13 @@
   <groupId>com.harish.app</groupId>
   <artifactId>sampleApp</artifactId>
   <packaging>jar</packaging>
-  <version>1.1</version>
+  <version>1.2-SNAPSHOT</version>
    <scm>
      <connection>scm:git:git@github.com:harishntt/mavenreleasetest.git</connection>
     <developerConnection>scm:git:git@github.com:harishntt/mavenreleasetest.git</developerConnection>
 	   <url>https://github.com/harishntt/mavenreleasetest</url> 
 	  <!-- <tag>@{project.version}</tag> -->
-    <tag>sampleApp-1.1</tag>
+    <tag>HEAD</tag>
   </scm>
  
   <dependencies>
